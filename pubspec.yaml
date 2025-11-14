@@ -1,0 +1,36 @@
+name: file_transfer
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  file_picker: ^8.0.3
+  path_provider: ^2.1.2
+  encrypt: ^5.0.1
+  lottie: ^3.0.0
+  google_fonts: ^6.1.0
+  shared_preferences: ^2.3.2
+  open_filex: ^4.3.2
+  permission_handler: ^11.3.0
+
+  ftpconnect: ^2.0.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/scan.json
+    - assets/connected.json
