@@ -112,3 +112,5 @@ Roadmap
 Developer
 ----------------------------------------------------
 Created by: Amarnath CK
+
+Note:The application is not fully developed its is a prototype
